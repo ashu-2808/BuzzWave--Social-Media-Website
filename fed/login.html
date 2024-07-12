@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="icon" href="./images/Screenshot_2024-07-02_005111-removebg.png" type="image/x-icon" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h1>BuzzWave</h1>
+      <h3>Social Media Login</h3>
+      <div class="login-form">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Email"
+          autocomplete="off"
+          required
+          aria-label="Email"
+        />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          autocomplete="off"
+          required
+          aria-label="Password"
+        />
+        <button onclick="submitForm()">Login</button>
+      </div>
+      <div class="register-button">
+        <p>If you do not have an account,</p>
+        <a href="register.html">Register here</a>
+      </div>
+      <div class="social-buttons">
+        <button class="facebook">
+          <i class="fab fa-facebook-f"></i>
+          Login with Facebook
+        </button>
+        <button class="twitter">
+          <i class="fab fa-twitter"></i>
+          Login with Twitter
+        </button>
+        <button class="google">
+          <i class="fab fa-google"></i>
+          Login with Google
+        </button>
+        <button class="instagram">
+          <i class="fab fa-instagram"></i>
+          Login with Instagram
+        </button>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
